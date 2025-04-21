@@ -1,0 +1,26 @@
+{
+  "schemaName": "carData",
+  "dimensionFieldSpecs": [
+    { "name": "DriverNo", "dataType": "STRING" },
+    { "name": "SessionKey", "dataType": "STRING" },
+    { "name": "drs", "dataType": "INT" },
+    { "name": "n_gear", "dataType": "INT" },
+    { "name": "Utc", "dataType": "STRING" },
+    { "name": "timestamp", "dataType": "STRING" }
+  ],
+  "metricFieldSpecs": [
+    { "name": "rpm", "dataType": "INT" },
+    { "name": "speed", "dataType": "INT" },
+    { "name": "throttle", "dataType": "INT" },
+    { "name": "brake", "dataType": "INT" }
+  ],
+  "dateTimeFieldSpecs": [
+    {
+      "name": "tsMillis",
+      "dataType": "LONG",
+      "format": "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    }
+  ],
+  "primaryKeyColumns": ["DriverNo"]
+}
