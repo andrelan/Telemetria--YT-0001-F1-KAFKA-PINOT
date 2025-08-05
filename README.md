@@ -1,5 +1,7 @@
 # 🏎️ Painel de Telemetria F1 em Tempo Real
 
+YouTube >> https://www.youtube.com/watch?v=89T0rjvfIvc
+
 ## 🛠️ Stack Tecnológica
 
 - **Visualização**: Streamlit
